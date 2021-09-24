@@ -1,4 +1,14 @@
+@use 'reset' as *;
 @use 'header' as *;
 @use 'main' as *;
 @use 'footer' as *;
-@use  'reset' as *;
+@use 'variables' as *;
+
+html {
+    font-size: 10px;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Monda', sans-serif;
+}

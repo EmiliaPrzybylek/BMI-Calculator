@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Monda&display=swap');
+@import "variables";
+
+header {
+    background: url('../assets/header.png') center/cover fixed;
+    position: relative;
+    height: 100vh;
+    font-family: 'Monda', sans-serif;
+    font-size: 3rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    a {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.start {
+    position: relative;
+ 
+    height: 5rem;
+    width: 10rem;
+    border-radius: 10px; 
+    text-align: center; 
+    display: flex;
+    align-self:flex-start;
+
+}
+
+
+li {
+    padding: 2rem;
+    height: 3rem;
+    text-align: center; 
+    border-radius: 10px; 
+}
+
+li:hover {
+    transition-duration: .8s;
+    background-color: $color1;    
+}
+
+.start:hover {
+    transition-duration: .8s;
+    background-color: $color1;    
+}

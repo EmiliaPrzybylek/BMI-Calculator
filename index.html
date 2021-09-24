@@ -14,31 +14,141 @@
     <header>
         <div class="start"><a href="index.html">Start</a></div>
         <nav class="nav">
-                <ul class="items">
-                    <li>
-                        <a href="#calculator">Oblicz swoje BMI</a>
-                    </li>
-                    <li>
-                        <a href="#definition">Czym jest BMI</a>
-                    </li>
-                    <li>
-                        <a href="#info">Ważne informacje</a>
-                    </li>
-                </ul>
+            <ul class="items">
+                <li>
+                    <a href="#calculator">Oblicz swoje BMI</a>
+                </li>
+                <li>
+                    <a href="#definition">Czym jest BMI</a>
+                </li>
+                <li>
+                    <a href="#info">Ważne informacje</a>
+                </li>
+            </ul>
         </nav>
 
 
     </header>
     <main>
-        <section>
+        <main>
+            <section id="calculator">
+                <h2>Oblicz swoje BMI</h2>
+                <form>
+                    Płeć: <input type="radio" name="gender" id="gender_f" value="f" required checked> <label
+                        for="gender_f">
+                        Kobieta </label>
+                    <input type="radio" name="gender" id="gender_m" value="m" required> <label for="gender_m"> Mężczyzna
+                    </label>
+                    <br><br>
 
-        </section>
-        <section>
+                    <label for="weight"> Waga: <input type="number" id="weight" min="0" max="250" required> kg
+                    </label><br>
+                    <label for="height"> Wzrost: <input type="number" id="height" min="0" max="200" required> cm
+                    </label><br><br>
+                    <span> Wynik: <output id="result"></output> </span>
+                </form>
+                </div>
+            </section>
+            <section id="definition">
+                <h2> Czym jest BMI</h2>
+                <div class="def">
+                <article>
+                    Czym jest wskaźnik BMI?
+                    Wskaźnik BMI (body mass index, indeks masy ciała) to prosty wzór matematyczny, który w sposób
+                    pośredni opisuje zawartość tkanki tłuszczowej w organizmie na podstawie proporcji masy ciała
+                    mierzonej w kilogramach do wzrostu w metrach. Stosowany jest dla dorosłych kobiet i mężczyzn w
+                    każdym wieku.
 
-        </section>
-    </main>
-    <footer></footer>
-    <script src="js/script.js"></script>
+                    wW swojej pierwotnej postaci nie ma zastosowania u dzieci i młodzieży, jednak został zmodyfikowany
+                    oraz naniesiony na siatki centylowe osobno dla dziewcząt i chłopców, co pozwala na wykorzystywanie
+                    BMI również w pomiarach dzieci.
+                </article>
+            </div>
+
+            </section>
+            <section id="info">
+                <h2> Ważne informacje</h2>
+
+                <article>
+                    <h3>BMI a płeć i rozmieszczenie tkanki tłuszczowej</h3>
+                    <p>Kobiety mają fizjologiczne uwarunkowania do gromadzenia większej ilości tkanki tłuszczowej, a
+                        przy tym naturalnie mają mniej mięśni niż mężczyźni. Kobieta i mężczyzna o podobnym wzroście i
+                        wadze będą mieli zbliżone BMI, ale z dużym prawdopodobieństwem można stwierdzić, że u kobiety
+                        tkanka tłuszczowa będzie stanowiła większy fragment masy ciała niż u mężczyzny.
+
+                        To właśnie poziom tkanki tłuszczowej wiąże się z ryzykiem chorób, a nie sama masa ciała. Ponadto
+                        bardzo istotne jest rozmieszczenie tkanki tłuszczowej. Dużo większym ryzykiem zdrowotnym jest
+                        tłuszcz otaczający narządy wewnętrzne, tzw. wisceralna tkanka tłuszczowa niż tłuszcz podskórny.
+
+                        Dużo więcej o zagrożeniu zdrowia mówi wskaźnik WHR (proporcja obwodu talii do obwodu bioder) niż
+                        BMI. Uogólniając, u kobiet częściej występuje otyłość pośladkowo-udowa (tłuszcz zgromadzony pod
+                        skórą), a u mężczyzn otyłość brzuszna (tłuszcz zgromadzony wokół narządów wewnętrznych).
+
+                        Może się okazać, że kobieta o większej ilości tkanki tłuszczowej jest obarczona mniejszym
+                        ryzykiem chorób metabolicznych niż mężczyzna, u którego większość tłuszczu gromadzi się wokół
+                        narządów wewnętrznych. Stąd każdy przypadek należy przeanalizować dokładnie, posługując się
+                        kilkoma wskaźnikami.</p>
+                </article>
+                <article>
+                    <h3>BMI a masa mięśniowa</h3>
+                    <p>Mięśnie są gęstsze i cięższe niż tłuszcz, dlatego kilogram masy mięśniowej zajmuje nawet 3 razy
+                        mniejszą objętość niż kilogram tkanki tłuszczowej. Nikogo nie dziwi, że dwie osoby o tej samej
+                        masie ciała mogą wyglądać diametralnie różnie właśnie za sprawą proporcji masy mięśni do
+                        tłuszczu. BMI nie uwzględnia tych różnic.
+
+                        Osoby o atletycznej budowie, regularnie uprawiające sport czy mocno zbudowani mężczyźni są
+                        klasyfikowani jako osoby z nadwagą lub nawet otyłe. Według indeksu masy ciała grozi im cukrzyca
+                        i choroby serca, co nie ma nic wspólnego z rzeczywistością, gdyż duża masa mięśniowa i aktywny
+                        styl życia pomagają zapobiegać chorobom.</p>
+                </article>
+
+                <article>
+                    <h3>BMI a masa kości</h3>
+                    <p>Stopień mineralizacji i gęstość kości to kolejny parametr, który istotnie wpływa na masę ciała.
+                        Dla osób o budowie drobno- i grubokościstej prawidłowa masa ciała będzie zupełnie inna. Ponadto
+                        BMI nie uwzględnia, iż z wiekiem gęstość kości maleje, a osoby starsze często chorują na
+                        osteoporozę, co zaniża ich masę ciała.</p>
+                </article>
+
+                <article>
+                    <h3>BMI a wiek</h3>
+                    <p>Wraz z wiekiem maleje masa mięśni i masa kości, a najczęściej ilość tkanki tłuszczowej rośnie.
+                        BMI nie uwzględnia tych zmian zachodzących w procesie starzenia organizmu, przez co wyniki osób
+                        starszych są nieprawidłowo interpretowane jako lepsze niż w rzeczywistości.</p>
+                </article>
+
+                <article>
+                    <h3>Główne zarzuty wobec wskaźnika BMI</h3>
+                    <p>
+                    <ol>
+                        <li>BMI służy do oceny populacji, a nie indywidualnych osób. Podkreślał to twórca wskaźnika,
+                            jednak mimo tego lekarze i dietetycy klasyfikują masę ciała pacjentów według wyników
+                            indeksu.</li>
+                        <li>Twórcą BMI jest statystyk, a nie osoba zajmująca się badaniem otyłości.</li>
+                        <li>BMI to wskaźnik stworzony 200 lat temu.</li>
+                        <li>BMI jest naukowo bezsensowny. Nie ma żadnych fizjologicznych podstaw, aby podnosić wzrost do
+                            kwadratu. Quetelet użył tego zabiegu, aby dopasować wzór do uzyskanych danych
+                            statystycznych.</li>
+                        <li>BMI jest fizjologicznie niewłaściwy. Nie uwzględnia masy mięśni i kości, które istotnie
+                            wpływają na masę ciała.</li>
+                        <li>Definicja BMI zawiera błąd logiczny. Mówi o tym, że BMI pozwala ocenić otłuszczenie ciała,
+                            co jest niezgodne z rzeczywistością. Quetelet wywnioskował, że osoby z dużą ilością tkanki
+                            tłuszczowej mają wysokie BMI, ale nie odwrotnie. Osoby z wysokim BMI nie muszą mieć dużej
+                            ilości tkanki tłuszczowej – mogą mieć wysoką masę mięśniową lub kostną.</li>
+                        <li>BMI to tylko matematyczna formuła – kolejna próba opisania rzeczywistości.</li>
+                        <li>BMI wyznacza ścisłe przedziały wagi prawidłowej, nadwagi i otyłości. Jest to podejście
+                            nieprawidłowe, ponieważ w szerokim zakresie wagi idealnej znajduje się osoba bardzo szczupła
+                            i lekko otłuszczona – obie klasyfikowane jako zdrowe. Gdy osoba na granicy wagi prawidłowej
+                            przytyje kilogram, klasyfikowana jest już jako niezdrowa, z nadwagą. Sztywne ramy
+                            przedziałów wagi to nadmierne uproszczenie.</li>
+                        </p>
+                    </ol>
+                </article>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+        <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -34,18 +34,16 @@
             <section id="calculator">
                 <h2>Oblicz swoje BMI</h2>
                 <form>
-                    Płeć: <input type="radio" name="gender" id="gender_f" value="f" required checked> <label
-                        for="gender_f">
-                        Kobieta </label>
-                    <input type="radio" name="gender" id="gender_m" value="m" required> <label for="gender_m"> Mężczyzna
-                    </label>
+                    Płeć: <input type="radio" name="gender" id="gender_f" value="f" required checked> <label for="gender_f">Kobieta </label>
+                    <input type="radio" name="gender" id="gender_m" value="m" required> <label for="gender_m"> Mężczyzna </label>
                     <br><br>
 
-                    <label for="weight"> Waga: <input type="number" id="weight" min="0" max="250" required> kg
+                    <label for="weight"></label> Waga: <input type="number" id="weight" min="0" max="250" required> kg
                     </label><br>
                     <label for="height"> Wzrost: <input type="number" id="height" min="0" max="200" required> cm
                     </label><br><br>
-                    <span> Wynik: <output id="result"></output> </span>
+                    <button type="submit">Oblicz</button><br>
+                     Wynik: <span></span>
                 </form>
                 </div>
             </section>

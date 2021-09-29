@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>BMI Kalkulator</title>
@@ -34,8 +35,10 @@
             <section id="calculator">
                 <h2>Oblicz swoje BMI</h2>
                 <form>
-                    Płeć: <input type="radio" name="gender" id="gender_f" value="f" required checked> <label for="gender_f">Kobieta </label>
-                    <input type="radio" name="gender" id="gender_m" value="m" required> <label for="gender_m"> Mężczyzna </label>
+                    Płeć: <input type="radio" name="gender" id="gender_f" value="f" required checked> <label
+                        for="gender_f">Kobieta </label>
+                    <input type="radio" name="gender" id="gender_m" value="m" required> <label for="gender_m"> Mężczyzna
+                    </label>
                     <br><br>
 
                     <label for="weight"></label> Waga: <input type="number" id="weight" min="0" max="250" required> kg
@@ -43,25 +46,27 @@
                     <label for="height"> Wzrost: <input type="number" id="height" min="0" max="200" required> cm
                     </label><br><br>
                     <button type="submit">Oblicz</button><br>
-                     Wynik: <span></span>
+                    Wynik: <span></span>
                 </form>
-                
+
             </section>
             <section id="definition">
                 <h2> Czym jest BMI</h2>
                 <div class="def">
-                <article>
-                    Czym jest wskaźnik BMI?
-                    Wskaźnik BMI (body mass index, indeks masy ciała) to prosty wzór matematyczny, który w sposób
-                    pośredni opisuje zawartość tkanki tłuszczowej w organizmie na podstawie proporcji masy ciała
-                    mierzonej w kilogramach do wzrostu w metrach. Stosowany jest dla dorosłych kobiet i mężczyzn w
-                    każdym wieku.
+                    <article>
+                        Czym jest wskaźnik BMI?
+                        Wskaźnik BMI (body mass index, indeks masy ciała) to prosty wzór matematyczny, który w sposób
+                        pośredni opisuje zawartość tkanki tłuszczowej w organizmie na podstawie proporcji masy ciała
+                        mierzonej w kilogramach do wzrostu w metrach. Stosowany jest dla dorosłych kobiet i mężczyzn w
+                        każdym wieku.
 
-                    wW swojej pierwotnej postaci nie ma zastosowania u dzieci i młodzieży, jednak został zmodyfikowany
-                    oraz naniesiony na siatki centylowe osobno dla dziewcząt i chłopców, co pozwala na wykorzystywanie
-                    BMI również w pomiarach dzieci.
-                </article>
-            </div>
+                        wW swojej pierwotnej postaci nie ma zastosowania u dzieci i młodzieży, jednak został
+                        zmodyfikowany
+                        oraz naniesiony na siatki centylowe osobno dla dziewcząt i chłopców, co pozwala na
+                        wykorzystywanie
+                        BMI również w pomiarach dzieci.
+                    </article>
+                </div>
 
             </section>
             <section id="info">
@@ -145,7 +150,19 @@
                 </div>
             </section>
         </main>
-        <footer></footer>
+        <footer>
+            <div>
+                <p>Źródło: <a href="https://www.poradnikzdrowie.pl/sprawdz-sie/kalkulatory/kalkulator-wagi-bmi-wzor-normy-jak-obliczyc-wartosc-wskaznika-bmi-aa-4Q8M-4h3E-dtKD.html" target= "_blank">poradnikzdrowie.pl</a>
+                <a href="https://bmi-online.pl/" target= "_blank">bmi-online.pl</a>
+                </p>
+            </div>
+            <div>
+                <p>Grafics designed by <a href="https://www.canva.com/pl_pl/" target= "_blank">Canva</a></p>
+            </div>
+            <div>
+                <p><span class="material-icons">copyright</span> Emilia Przybyłek</p>
+            </div>
+        </footer>
         <script src="js/script.js"></script>
 </body>
 

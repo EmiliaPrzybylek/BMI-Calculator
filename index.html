@@ -22,7 +22,7 @@
                     <a href="#calculator">Oblicz swoje BMI</a>
                 </li>
                 <li>
-                    <a href="#definition">Czym jest BMI</a>
+                    <a href="#definition">Czym jest BMI?</a>
                 </li>
                 <li>
                     <a href="#info">Ważne informacje</a>
@@ -33,7 +33,7 @@
 
     <main>
         <main>
-            <section id="calculator">
+            <section class="calculator">
                 <h2>Oblicz swoje BMI</h2>
                 <form>
                     Płeć: <input type="radio" name="gender" id="gender_f" value="f" required checked> <label
@@ -42,18 +42,19 @@
                     </label>
                     <br><br>
 
-                    <label for="weight"></label> Waga: <input type="number" id="weight" min="0" max="250" required> kg
+                    <label for="weight"> Waga: <input type="number" id="weight" min="0" max="250" required> kg
                     </label><br>
                     <label for="height"> Wzrost: <input type="number" id="height" min="0" max="200" required> cm
                     </label><br><br>
-                    <button type="submit">Oblicz</button><br>
-                    Wynik: <span></span>
+                    <button type="submit">Oblicz</button>
+                    <input class="reset" type="reset" value="Reset"><br>
+                    <div class="result">Wynik: <span></span></div>
                 </form>
 
             </section>
             <section id="definition">
-                <h2> Czym jest BMI</h2>
-                <div class="def">
+                <h2> Czym jest BMI?</h2>
+                <div>                 
                     <article>
                         Czym jest wskaźnik BMI?
                         Wskaźnik BMI (body mass index, indeks masy ciała) to prosty wzór matematyczny, który w sposób

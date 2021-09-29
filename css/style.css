@@ -63,36 +63,20 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
 }
 header a {
   display: block;
   text-decoration: none;
   color: inherit;
 }
-
-.start {
-  position: relative;
-  height: 5rem;
-  width: 10rem;
-  border-radius: 10px;
-  text-align: center;
-  display: flex;
-  align-self: flex-start;
-}
-
 header li {
   padding: 2rem;
   height: 3rem;
   text-align: center;
   border-radius: 10px;
 }
-
 header li:hover {
-  transition-duration: 0.8s;
-  background-color: #758C5E;
-}
-
-.start:hover {
   transition-duration: 0.8s;
   background-color: #758C5E;
 }

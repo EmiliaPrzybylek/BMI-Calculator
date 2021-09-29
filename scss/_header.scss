@@ -11,40 +11,23 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+    align-content: center;
+  
     a {
         display: block;
         text-decoration: none;
         color: inherit;
     }
-}
 
-.start {
-    position: relative;
-    height: 5rem;
-    width: 10rem;
-    border-radius: 10px; 
-    text-align: center; 
-    display: flex;
-    align-self:flex-start;
+    li {
+        padding: 2rem;
+        height: 3rem;
+        text-align: center; 
+        border-radius: 10px; 
+    }
 
-}
-
-
-header li {
-    padding: 2rem;
-    height: 3rem;
-    text-align: center; 
-    border-radius: 10px; 
-}
-
-header li:hover {
-    transition-duration: .8s;
-    background-color: $color1;    
-}
-
-.start:hover {
-    transition-duration: .8s;
-    background-color: $color1;    
+    li:hover {
+        transition-duration: .8s;
+        background-color: $color1;    
+    }
 }

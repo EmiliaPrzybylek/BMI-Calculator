@@ -53,6 +53,15 @@ table {
   border-spacing: 0;
 }
 
+html {
+  font-size: 10px;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Monda", sans-serif;
+}
+
 header {
   background: url("../assets/header.png") center/cover fixed;
   position: relative;
@@ -185,15 +194,6 @@ a {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
-}
-
-html {
-  font-size: 10px;
-  text-decoration: none;
-}
-
-body {
-  font-family: "Monda", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

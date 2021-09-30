@@ -185,8 +185,8 @@ footer {
   border-top-right-radius: 5%;
 }
 
-.material-icons-outlined {
-  color: white;
+.material-icons {
+  color: inherit;
 }
 
 a {

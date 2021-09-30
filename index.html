@@ -32,26 +32,22 @@
     </header>
 
     <main>
-        <main>
-            <section class="calculator">
+            <section id="calculator">
                 <h2>Oblicz swoje BMI</h2>
                 <form>
-                    Płeć: <input type="radio" name="gender" id="gender_f" value="f" required checked> <label
-                        for="gender_f">Kobieta </label>
-                    <input type="radio" name="gender" id="gender_m" value="m" required> <label for="gender_m"> Mężczyzna
-                    </label>
+                    Płeć: 
+                    <input type="radio" name="gender" id="gender_f" value="f" required checked> <label for="gender_f">Kobieta </label>
+                    <input type="radio" name="gender" id="gender_m" value="m" required> <label for="gender_m"> Mężczyzna</label>
                     <br><br>
 
-                    <label for="weight"> Waga: <input type="number" id="weight" min="0" max="250" required> kg
-                    </label><br>
-                    <label for="height"> Wzrost: <input type="number" id="height" min="0" max="200" required> cm
-                    </label><br><br>
+                    <label for="weight"> Waga: <input type="number" id="weight" min="0" max="250" required> kg</label><br>
+                    <label for="height"> Wzrost: <input type="number" id="height" min="0" max="200" required> cm</label><br><br>
                     <button type="submit">Oblicz</button>
                     <input class="reset" type="reset" value="Reset"><br>
-                    <div class="result">Wynik: <span></span></div>
+                    <div class="result">Twoje BMI to: <span></span></div>
                 </form>
-
             </section>
+
             <section id="definition">
                 <h2> Czym jest BMI?</h2>
                 <div>                 
@@ -69,11 +65,10 @@
                         BMI również w pomiarach dzieci.
                     </article>
                 </div>
-
             </section>
+
             <section id="info">
                 <h2> Ważne informacje</h2>
-
                 <article>
                     <h3>BMI a płeć i rozmieszczenie tkanki tłuszczowej</h3>
                     <p>Kobiety mają fizjologiczne uwarunkowania do gromadzenia większej ilości tkanki tłuszczowej, a
@@ -106,7 +101,6 @@
                         i choroby serca, co nie ma nic wspólnego z rzeczywistością, gdyż duża masa mięśniowa i aktywny
                         styl życia pomagają zapobiegać chorobom.</p>
                 </article>
-
                 <article>
                     <h3>BMI a masa kości</h3>
                     <p>Stopień mineralizacji i gęstość kości to kolejny parametr, który istotnie wpływa na masę ciała.
@@ -114,14 +108,12 @@
                         BMI nie uwzględnia, iż z wiekiem gęstość kości maleje, a osoby starsze często chorują na
                         osteoporozę, co zaniża ich masę ciała.</p>
                 </article>
-
                 <article>
                     <h3>BMI a wiek</h3>
                     <p>Wraz z wiekiem maleje masa mięśni i masa kości, a najczęściej ilość tkanki tłuszczowej rośnie.
                         BMI nie uwzględnia tych zmian zachodzących w procesie starzenia organizmu, przez co wyniki osób
                         starszych są nieprawidłowo interpretowane jako lepsze niż w rzeczywistości.</p>
                 </article>
-
                 <article>
                     <h3>Główne zarzuty wobec wskaźnika BMI</h3>
                     <p>
@@ -146,12 +138,12 @@
                             i lekko otłuszczona – obie klasyfikowane jako zdrowe. Gdy osoba na granicy wagi prawidłowej
                             przytyje kilogram, klasyfikowana jest już jako niezdrowa, z nadwagą. Sztywne ramy
                             przedziałów wagi to nadmierne uproszczenie.</li>
-                        </p>
                     </ol>
+                    </p>
                 </article>
-                </div>
             </section>
         </main>
+        
         <footer>
             <div>
                 <p>Źródło: <a href="https://www.poradnikzdrowie.pl/sprawdz-sie/kalkulatory/kalkulator-wagi-bmi-wzor-normy-jak-obliczyc-wartosc-wskaznika-bmi-aa-4Q8M-4h3E-dtKD.html" target= "_blank">poradnikzdrowie.pl</a>

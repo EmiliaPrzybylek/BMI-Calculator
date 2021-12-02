@@ -90,6 +90,16 @@ header li:hover {
   background-color: #758C5E;
 }
 
+section h3, section h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+input[type=radio]:checked + label:after, input[type=radio] + label::before, input[type=radio] + label::after {
+  height: 20px;
+  width: 20px;
+}
+
 section {
   min-height: 50vh;
   padding: 6rem;
@@ -97,15 +107,11 @@ section {
   font-size: 2.3rem;
 }
 section h2 {
-  font-weight: bold;
   font-size: 2.8rem;
-  text-align: center;
 }
 section h3 {
   padding-bottom: 15px;
   font-size: 2.4rem;
-  font-weight: bold;
-  text-align: center;
 }
 section article {
   padding: 30px 200px;
@@ -154,8 +160,6 @@ input[type=radio] + label::before, input[type=radio] + label::after {
   content: "";
   position: absolute;
   left: 0;
-  width: 20px;
-  height: 20px;
   border: 2px solid #A0A69C;
   border-radius: 50%;
   transition: 0.6s;
@@ -164,8 +168,6 @@ input[type=radio] + label::before, input[type=radio] + label::after {
 
 input[type=radio]:checked + label:after {
   background-color: #A0A69C;
-  height: 20px;
-  width: 20px;
   border: 3px double white;
 }
 
